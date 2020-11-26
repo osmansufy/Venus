@@ -1,0 +1,22 @@
+{
+    "name": "hasinhayder/wphelper",
+    "description": "Helper functions for WordPress Theme & Plugin Developers",
+    "type": "library",
+    "license": "GPL V2",
+    "authors": [
+        {
+            "name": "Hasin Hayder",
+            "email": "countdraculla@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "HasinHayder\\WPHelper\\":"src/"
+        },
+        "files": [
+            "src/Helpers/Constants.php",
+            "src/Helpers/Functions.php"
+        ]
+    },
+    "require": {}
+}
